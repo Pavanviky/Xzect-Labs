@@ -1,0 +1,987 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/* globals.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add more global styles here */
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Navbar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_header__y9z_U {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Navbar_logoContainer__RPDe0 {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+  }
+  
+  .Navbar_logo__eWcuJ {
+    height: 40px;
+    width: auto;
+    margin-right: 1rem;
+  }
+  
+  .Navbar_title__ycAaV {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1F2937;
+  }
+  
+  .Navbar_nav__j76Bw {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .Navbar_navLink__0KDl6 {
+    margin-left: 2rem;
+    color: #4B5563;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .Navbar_loginContainer__TDfLH {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  
+  .Navbar_loginButton__HiR0d {
+    background-color: #EF4444;
+    color: white;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Banner.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.Banner_main__qb_yx {
+    background: url('/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    height: 30rem;
+  }
+  
+  .Banner_container__RTf5Q {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  
+  .Banner_textContainer__aymI3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .Banner_title__NfTXw {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1F2937;
+    margin-bottom: 1rem;
+  }
+  
+  .Banner_description__xr2GC {
+    font-size: 1rem;
+    color: #4B5563;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .Banner_image__Px6JX {
+    width: 18rem;
+    height: 15rem;
+    margin-left: 50rem;
+    transition: transform 0.3s;
+    margin-top: -9rem;
+  }
+  
+  .Banner_buttonContainer__Q_pS4 {
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Banner_knowMoreButton__QWtRK {
+    background-color: #EF4444;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: -1rem;
+  }
+  
+  .Banner_searchContainer__eWWpA {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 9999px;
+    padding: 1.25rem 1rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Banner_searchInput__LxnDC {
+    flex: 2 1;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+  }
+  
+  .Banner_selectContainer__6qA_2 {
+    margin: 0 1rem;
+    padding: 0 1.25rem;
+    border-left: 1px solid #E5E7EB;
+    border-right: 1px solid #E5E7EB;
+  }
+  
+  .Banner_select__omnPM {
+    background-color: #FFFFFF;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+  }
+  
+  .Banner_searchButton__eccdd {
+    background-color: #EF4444;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Design.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.Design_sectionContainer__IwSUy {
+    display: flex;
+}
+
+.Design_trendingJobs__bhnIN {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding: 32px;
+    background-color: rgb(255, 97, 88);
+    color: white;
+    width: 38.5rem;
+    height: 10rem;
+    margin-left: -10px;
+}
+
+.Design_trendingImage__AOmkF {
+    margin-right: 10px;
+    margin-top: 70px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.Design_trendingTitle__9X9D7 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.Design_trendingDescription__f2DdZ {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.Design_jobCategories__mZGAn {
+    background-color: rgba(55, 35, 84, 1);
+    width: 50%;
+    height: 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Design_categoryContainer__U_Nwd {
+    text-align: center;
+    padding: 32px;
+}
+
+.Design_categoryImage__1DEg6 {
+    width: 3rem; 
+    height: 3rem; 
+}
+
+.Design_categoryTitle__KB0DB {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Design_categoryDescription__E0ylK {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: white;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Process.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Process_processContainer__fRveC {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.Process_processTitle__Mo7w9 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: purple;
+    margin-top: 1.5rem;
+}
+
+.Process_processBorder__ICcyw {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.Process_processGrid__xLZDI {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.Process_gridContainer__O4V_R {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.Process_card__JHqKA {
+    width: 350px; 
+    height: 300px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Process_cardIcon__ErwiU {
+    font-size: 3rem !important; /* Ensure the size is not overridden */
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.Process_cardTitle__VslxT {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff5252;
+    margin-top: 1rem;
+}
+
+.Process_cardDescription__B9awZ {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.Process_cardButton__GWbrT {
+    background-color: #6b46c1;
+    color: #fff;
+    border-radius: 100px;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Services.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.Services_servicesContainer__Cr3sZ {
+    max-width: 100%;
+}
+
+.Services_servicesTitle__v5hR5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Services_servicesBorder__k47Fb {
+    display: block;
+    margin: 0 auto;
+    width: 8rem;
+}
+
+.Services_servicesGrid__2eRMY {
+    max-width: 4000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.Services_gridContainer__8TDtY {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Services_card__MM8rB {
+    background-color: #fff;
+    padding: 0.7rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition-duration: 300ms;
+    width: 250px;
+    height: 150px;
+}
+
+.Services_cardIcon__tP_gG {
+    font-size: 1.5rem;
+    color: #000;
+    display: block;
+}
+
+.Services_cardTitle__FNW0_ {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.75rem;
+}
+
+.Services_cardDescription__knlVJ {
+    color: #4a5568;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Job.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Job_jobsContainer__zYjGz {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.Job_jobsTitle__4JoGe {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: purple;
+}
+
+.Job_jobsTitleBorder__CIiTM {
+    width: 10rem;
+    margin: auto;
+    display: block;
+}
+
+.Job_buttonsContainer__3m7ki {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.Job_filterButton__18Ekd {
+    padding: 0.75rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid #cbd5e0;
+    margin: 0 0.5rem;
+    color: #4a5568;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Job_jobCardsContainer__sKv0h {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.Job_jobCard__r7bhJ {
+    width: 450px;
+    height: 100px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.Job_jobIcon__zHU39 {
+    width: 6rem;
+    height: 6rem;
+}
+
+.Job_jobInfo__mCPuP {
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.Job_jobTitle__0v6_R {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Job_jobLink__fUQgn {
+    color: #718096;
+    text-decoration: none;
+    font-size: medium;
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.Job_jobSalary__cE3sh,
+.Job_jobLocation__EHM7Y {
+    color: #718096;
+    margin: 0.2rem 0 0 0;
+}
+
+.Job_jobSalary__cE3sh {
+    font-size: 0.9rem;
+}
+
+.Job_jobLocation__EHM7Y {
+    font-size: 0.7rem;
+}
+
+.Job_applyButton__SiKX9 {
+    background-color: #e53e3e;
+    color: #fff;
+    padding: 0.2rem 1rem;
+    font-weight: 300;
+    font-size: medium;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Blog.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.Blog_container__O5V0f {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .Blog_header__VbFN1 {
+    text-align: center;
+  }
+  
+  .Blog_title__3xGwj {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: purple;
+  }
+  
+  .Blog_titleBorder__4Hvbn {
+    width: 10rem;
+    margin: auto;
+    display: block;
+  }
+  
+  .Blog_blogContainer__LH2eC {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .Blog_blogPost__LOFQi {
+    background-color: #f9f6f6;
+    overflow: hidden;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 30rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Blog_blogImage__NOOXL {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .Blog_blogContent___3HPT {
+    padding: 1rem;
+  }
+  
+  .Blog_blogMeta__2TRDg {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Blog_blogDate__Mn_zM {
+    background-color: #e53e3e;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Blog_blogAuthor__PpEsp {
+    color: #718096;
+    font-size: 1rem;
+  }
+  
+  .Blog_divider__WpcL8 {
+    width: 30rem;
+    height: 0.1rem;
+    background-color: #4a5568;
+    margin: auto;
+  }
+  
+  .Blog_blogTitle__KB7Kr {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .Blog_blogDescription__OeyIz {
+    color: #4a5568;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .Blog_readMore__iu_rd {
+    background-color: #e53e3e;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-top: -20rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Subscribe.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Subscribe_subscribeContainer__L0lMV {
+    position: relative;
+    background-color: purple;
+    margin-top: 2rem;
+    width: 1450px;
+    margin-left: -100px;
+  }
+  
+  .Subscribe_subscribeImage___Ydt7 {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .Subscribe_overlay__ZCJ9G {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgba(107, 70, 193, 0.7);
+    padding: 20px;
+  }
+  
+  .Subscribe_title__RyYWq {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .Subscribe_subtitle__qUdOB {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .Subscribe_form__cYB8q {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 28rem;
+    display: flex;
+  }
+  
+  .Subscribe_input__oDSRB {
+    width: 66.6667%;
+    padding: 0.75rem;
+    border-radius: 9999px 0 0 9999px;
+    border: none;
+  }
+  
+  .Subscribe_button__E7bsv {
+    width: 33.3333%;
+    background-color: #ef4444;
+    padding: 0.75rem;
+    font-weight: bold;
+    border-radius: 0 9999px 9999px 0;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+  }
+  
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Price.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Price_container__fBJBr {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .Price_header__3W86E {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .Price_title__0eoCd {
+    font-size: 2rem;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .Price_titleBorder__ugfxR {
+    width: 10rem;
+    margin: auto;
+    display: block;
+  }
+  
+  .Price_cards__a2Qtb {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Price_card__xb5Mg {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 30%;
+    margin: 2rem;
+    text-align: center;
+    height: 33rem;
+  }
+  
+  .Price_cardTitle__Y_QRL {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 0.125rem solid #000000;
+    margin-bottom: 1rem;
+    margin-top: -10px;
+  }
+  
+  .Price_price__aYDo0 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: purple;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Price_perMonth__kPIZY {
+    color: black;
+    border-bottom: 0.125rem solid #000000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .Price_services__N1Csq {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .Price_serviceItem__rwuXJ {
+    border-bottom: 0.12rem solid #000000;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .Price_signUpButton__rGsdx {
+    background-color: #ef4444;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Static.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.Static_container__dcvq7 {
+  background-color: #f97316;
+  padding: 3rem;
+  color: #ffffff;
+  text-align: center;
+  width: 1250px; 
+  height: 160px;
+
+}
+
+.Static_statistics__5R1DE {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.Static_statistic__C3hDV {
+  text-align: center;
+  flex: 1 1;
+}
+
+.Static_icon__NdM3y {
+  width: 60px;
+  margin-bottom: 0.1rem;
+  margin-top: -20px;
+}
+
+.Static_count__soOqN {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  margin-top: -20px;
+}
+
+.Static_label__Muyp8 {
+  font-size: 1.5rem;
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+.Static_line__Os_Vp {
+  width: 1px;
+  background-color: #ffffff;
+  height: 10rem;
+  margin-top: -20px;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Testimonial.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Testimonial_container__Q4QHO {
+    text-align: center;
+    padding-top: 2.5rem;
+  }
+  
+  .Testimonial_header__KiFTM {
+    padding-bottom: 2.5rem;
+  }
+  
+  .Testimonial_title__Azqx3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .Testimonial_card__p7LsF {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 64rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Testimonial_cardContent__jgNNj {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  
+
+  
+  .Testimonial_blockquote__BXvaC {
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Testimonial_quoteIcon__ZQRXt {
+    font-size: 2.5rem;
+    color: #cbd5e0;
+    margin: 0 0.5rem;
+  }
+  
+  .Testimonial_quoteText__U0oMy {
+    font-size: 1.125rem;
+  }
+  
+  .Testimonial_testimonial__I490X {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .Testimonial_image__Mxj_c {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9999px;
+    border: 0.125rem solid #e2e8f0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Testimonial_name__Rb6pl {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  .Testimonial_position__OS0eL {
+    font-size: 1rem;
+    color: #718096;
+  }
+  
+  .Testimonial_leftArrow__iC4ZX, .Testimonial_rightArrow__o0Ud8 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #cbd5e0;
+    cursor: pointer;
+  }
+  
+  .Testimonial_leftArrow__iC4ZX {
+    left: 0;
+    margin-left: 1rem;
+  }
+  
+  .Testimonial_rightArrow__o0Ud8 {
+    right: 0;
+    margin-right: 1rem;
+  }
+  
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/Footer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* Footer.module.css */
+.Footer_footerBackground___0tyk {
+    background-image: url('/footer-bg.jpg'); /* Adjust the path to your footer-bg.jpg */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .Footer_container__aazS8 {
+    max-width: 1200px;
+    margin-top: -3rem;
+  }
+  
+  .Footer_logoContainer__wUiQh {
+    width: 104px;
+    height: 64px;
+    margin-top: 4rem; /* Adjust margin as needed */
+    margin-right: 2rem; /* Adjust margin as needed */
+  }
+  
+  .Footer_emailContainer__QOSxl {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Footer_emailInput__GhCg0 {
+    border-radius: 9999px 0 0 9999px;
+    background-color: white;
+    color: black;
+    border: 1px solid #d1d5db;
+    padding: 0.75rem 2rem; /* Adjust padding as needed */
+  }
+  
+  .Footer_subscribeButton__TtMy_ {
+    border-radius: 0 9999px 9999px 0;
+    background-color: #ffa500;
+    color: white;
+    transition: transform 0.3s;
+    padding: 0.75rem 1rem; /* Adjust padding as needed */
+  }
+  
+  .Footer_subscribeButton__TtMy_:hover {
+    transform: scale(1.05);
+  }
+  
+  .Footer_footerBottom__Gdeo_ {
+    background-color: #ffa500;
+    color: black;
+  }
+  
+  .Footer_footerBottom__Gdeo_ a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .Footer_footerBottom__Gdeo_ a:hover {
+    color: #d1d5db;
+  }
+  

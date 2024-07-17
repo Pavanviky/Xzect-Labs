@@ -1,0 +1,68 @@
+.processContainer {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.processTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: purple;
+    margin-top: 1.5rem;
+}
+
+.processBorder {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.processGrid {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.card {
+    width: 350px; 
+    height: 300px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cardIcon {
+    font-size: 3rem !important; /* Ensure the size is not overridden */
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.cardTitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff5252;
+    margin-top: 1rem;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.cardButton {
+    background-color: #6b46c1;
+    color: #fff;
+    border-radius: 100px;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}

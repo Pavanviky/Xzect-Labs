@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidepro - Find The Job That Fits Your Life</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+        }
+
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-roboto">
+    <header class="bg-white border-b border-gray-200 fixed top-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center py-4"> <!-- Reduced padding-top to make the header slimmer -->
+            <div class="flex items-center">
+                <img src="logo.png" alt="Guidepro logo illustration" class="logo mr-5" style="width: 250px;">
+                <span class="font-semibold text-3xl text-gray-800">Guidepro</span>
+            </div>
+            <nav class="space-x-8">
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-xl transition duration-300 transform hover:scale-110">About Us</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-xl transition duration-300 transform hover:scale-110">Pages</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-xl transition duration-300 transform hover:scale-110">Jobs</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-xl transition duration-300 transform hover:scale-110">Blog</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800 text-xl transition duration-300 transform hover:scale-110">Contact Us</a>
+            </nav>
+            <div>
+                <button class="text-white bg-red-500 hover:bg-red-600 px-6 py-4 rounded text-xl transition duration-300 transform hover:scale-110">Login / Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24"> <!-- Added padding-top to main to push content below the fixed navbar -->
+        <div class="container mx-auto text-center">
+            <h1 class="text-6xl font-bold text-gray-800 mb-6">Find The Job That Fits Your Life</h1>
+            <p class="text-gray-600 text-2xl mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="flex justify-center items-center mb-12">
+                <button class="bg-red-500 text-white hover:bg-red-600 px-10 py-5 rounded-full text-2xl transition duration-300 transform hover:scale-110">Know More</button>
+                <img src="man.png" alt="Illustration of a person" class="ml-10 w-56 h-auto transform transition duration-300 hover:scale-110">
+            </div>
+            <div class="flex justify-center items-center bg-white shadow-lg rounded-full py-5 px-8">
+                <input type="text" class="flex-1 px-5 py-4 focus:outline-none text-xl" placeholder="Job title, skill, industry">
+                <div class="mx-4 border-l border-r px-5">
+                    <select class="bg-white focus:outline-none text-xl">
+                        <option>Any Category</option>
+                    </select>
+                </div>
+                <button class="bg-red-500 text-white px-10 py-4 rounded-full text-xl hover:bg-red-600 transition duration-300 transform hover:scale-110">Search Jobs</button>
+            </div>
+        </div>
+        
+    </main>
+
+        <!-- Additional Section -->
+        <div class="flex mt-24">
+            <div class="flex items-center bg-orange-600 text-white p-6 w-1/2 relative">
+                <img src="people-group.png" alt="Illustration of a man in a suit with crossed arms with a big magnifying glass" class="mr-4">
+                <div>
+                    <h1 class="text-4xl font-bold">You're Looking for Trending Jobs</h1>
+                    <p class="mt-2 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..</p>
+                </div>
+                <img src="strip-square.png" class="absolute bottom-0 left-0 h-full" style="z-index: -1;">
+            </div>
+            <div class="flex-1 bg-purple-800">
+                <div class="flex justify-around text-white h-full items-center">
+                    <div class="text-center">
+                        <i class="fas fa-laptop-code text-5xl"></i>
+                        <h2 class="mt-4 text-2xl font-bold">DEVELOPER</h2>
+                        <p class="mt-2 text-xl">7 Jobs</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-microchip text-5xl"></i>
+                        <h2 class="mt-4 text-2xl font-bold">TECHNOLOGY</h2>
+                        <p class="mt-2 text-xl">5 Jobs</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-university text-5xl"></i>
+                        <h2 class="mt-4 text-2xl font-bold">GOVERNMENT</h2>
+                        <p class="mt-2 text-xl">2 Jobs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-12">
+            <h2 class="text-4xl font-bold text-purple-800">Our Works Process</h2>
+            <div class="flex justify-center mt-4">
+                <div class="border-b-2 border-purple-800 w-16"></div>
+            </div>
+        </div>
+    
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center card">
+                    <div class="text-6xl text-purple-800 mb-4">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-red-500 mb-4">Create Account</h3>
+                    <p class="text-lg text-gray-600 mb-6">Lorem ipsum dolor sit amet, arcu justo eget, placerat suspendisse ornare accumsan et fringilla consectetur</p>
+                    <button class="bg-purple-800 text-white rounded-full px-4 py-2">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center card">
+                    <div class="text-6xl text-purple-800 mb-4">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-red-500 mb-4">Search Job</h3>
+                    <p class="text-lg text-gray-600 mb-6">Lorem ipsum dolor sit amet, arcu justo eget, placerat suspendisse ornare accumsan et fringilla consectetur</p>
+                    <button class="bg-purple-800 text-white rounded-full px-4 py-2">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center card">
+                    <div class="text-6xl text-purple-800 mb-4">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-red-500 mb-4">Submit Resume</h3>
+                    <p class="text-lg text-gray-600 mb-6">Lorem ipsum dolor sit amet, arcu justo eget, placerat suspendisse ornare accumsan et fringilla consectetur</p>
+                    <button class="bg-purple-800 text-white rounded-full px-4 py-2">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-4xl font-bold text-center text-purple-800">Our Services</h2>
+            <div class="w-16 h-1 bg-purple-800 mx-auto my-4"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-laptop-code fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Web & Software</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-chart-line fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Science & Analytics</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-briefcase fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Accounting & Consulting</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-pen-nib fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Writing & Translations</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-bullhorn fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Sales & Marketing</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-palette fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Graphics & Design</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-mobile-alt fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105">
+                    <i class="fas fa-graduation-cap fa-3x text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Education & Training</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#" class="bg-red-600 text-white py-3 px-6 rounded-full text-lg font-semibold transform transition duration-300 hover:bg-red-700 hover:scale-105">Browse All Categories</a>
+            </div>
+        </div>
+        <div class="container mx-auto">
+            <h1 class="text-5xl font-black text-center mb-10 text-gray-700">Current Jobs</h1>
+            <div class="flex justify-center mb-10">
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-purple-700 font-bold transform transition duration-300 hover:scale-105">All</button>
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-gray-700 transform transition duration-300 hover:scale-105">New</button>
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-gray-700 transform transition duration-300 hover:scale-105">Featured</button>
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-gray-700 transform transition duration-300 hover:scale-105">Recent</button>
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-gray-700 transform transition duration-300 hover:scale-105">Full Time</button>
+                <button class="px-6 py-3 bg-white border border-gray-400 rounded-lg mx-2 text-gray-700 transform transition duration-300 hover:scale-105">Part Time</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-lg shadow-md flex items-center transform transition duration-300 hover:scale-105">
+                    <img alt="Colorful abstract illustration icon" src="job-icon1.png" class="w-20 h-20" />
+                    <div class="ml-8">
+                        <h2 class="text-3xl font-black">UI / UX Designer</h2>
+                        <a href="job-details.html" class="text-gray-600 font-bold">job-details.html</a>
+                        <p class="text-gray-600"><span>$20k - $25k</span></p>
+                        <p class="text-gray-600">Location: 20-27 Quadra, Market Street, Victoria Canada</p>
+                    </div>
+                    <button class="ml-auto bg-red-500 text-white px-6 py-4 rounded-lg font-bold transform transition duration-300 hover:scale-105">Apply Now</button>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md flex items-center transform transition duration-300 hover:scale-105">
+                    <img alt="Abstract leaf illustration icon" src="job-icon2.png" class="w-20 h-20" />
+                    <div class="ml-8">
+                        <h2 class="text-3xl font-black">UI / UX Designer</h2>
+                        <a href="job-details.html" class="text-gray-600 font-bold">job-details.html</a>
+                        <p class="text-gray-600"><span>$20k - $25k</span></p>
+                        <p class="text-gray-600">Location: 20-27 Quadra, Market Street, Victoria Canada</p>
+                    </div>
+                    <button class="ml-auto bg-red-500 text-white px-6 py-4 rounded-lg font-bold transform transition duration-300 hover:scale-105">Apply Now</button>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md flex items-center transform transition duration-300 hover:scale-105">
+                    <img alt="Abstract blue globe illustration icon" src="job-icon1.png" class="w-20 h-20" />
+                    <div class="ml-8">
+                        <h2 class="text-3xl font-black">UI / UX Designer</h2>
+                        <a href="job-details.html" class="text-gray-600 font-bold">job-details.html</a>
+                        <p class="text-gray-600"><span>$20k - $25k</span></p>
+                        <p class="text-gray-600">Location: 20-27 Quadra, Market Street, Victoria Canada</p>
+                    </div>
+                    <button class="ml-auto bg-red-500 text-white px-6 py-4 rounded-lg font-bold transform transition duration-300 hover:scale-105">Apply Now</button>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md flex items-center transform transition duration-300 hover:scale-105">
+                    <img alt="Gray abstract work illustration icon" src="job-icon2.png" class="w-20 h-20" />
+                    <div class="ml-8">
+                        <h2 class="text-3xl font-black">UI / UX Designer</h2>
+                        <a href="job-details.html" class="text-gray-600 font-bold">job-details.html</a>
+                        <p class="text-gray-600"><span>$20k - $25k</span></p>
+                        <p class="text-gray-600">Location: 20-27 Quadra, Market Street, Victoria Canada</p>
+                    </div>
+                    <button class="ml-auto bg-red-500 text-white px-6 py-4 rounded-lg font-bold transform transition duration-300 hover:scale-105">Apply Now</button>
+                </div>
+            </div>
+        </div>
+        
+      
+    <div class="fixed bottom-4 right-4 bg-white rounded-full shadow-lg p-2 cursor-pointer hover:bg-gray-100">
+        <i class="fas fa-angle-up text-red-500"></i>
+    </div>    
+    <div class="container mx-auto py-12 px-4">
+        <div class="text-center mb-8">
+            <h2 class="text-4xl font-semibold mb-2">Our Blog</h2>
+            <div class="w-24 h-1 bg-purple-600 mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Post 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <img src="blog1.jpg" alt="Image description of people discussing a subject in a meeting setting" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-600 text-white text-sm px-3 py-1 uppercase mr-2">05 Jun</div>
+                        <div class="text-gray-500 text-sm">
+                            <i class="fas fa-user mr-1"></i>Henry H.Garrick
+                            <i class="far fa-calendar-alt ml-2 mr-1"></i>November 16, 2016
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">How to Get Better Learning</h3>
+                    <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <a href="#" class="bg-red-600 text-white px-6 py-3 rounded-full inline-block hover:bg-red-700 transition duration-300">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <img src="blog2.jpg" alt="Image description of a woman smiling while using a laptop in an office environment" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 text-white text-sm px-3 py-1 uppercase mr-2">08 Aug</div>
+                        <div class="text-gray-500 text-sm">
+                            <i class="fas fa-user mr-1"></i>Henry H.Garrick
+                            <i class="far fa-calendar-alt ml-2 mr-1"></i>November 16, 2016
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">How to Get Better Learning</h3>
+                    <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <a href="#" class="bg-red-600 text-white px-6 py-3 rounded-full inline-block hover:bg-red-700 transition duration-300">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                <img src="blog3.jpg" alt="Image description of a person writing notes with a pen on a paper" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-600 text-white text-sm px-3 py-1 uppercase mr-2">10 Sep</div>
+                        <div class="text-gray-500 text-sm">
+                            <i class="fas fa-user mr-1"></i>Henry H.Garrick
+                            <i class="far fa-calendar-alt ml-2 mr-1"></i>November 16, 2016
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">How to Get Better Learning</h3>
+                    <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <a href="#" class="bg-red-600 text-white px-6 py-3 rounded-full inline-block hover:bg-red-700 transition duration-300">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="relative">
+        <img src="blog2.jpg" alt="Blurred meeting scene in an office setup with a focus on a woman having a discussion with a man, emphasizing a collaborative environment" class="w-full h-64 object-cover rounded-lg">
+        <div class="absolute inset-0 bg-purple-800 opacity-70 rounded-lg"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+            <h1 class="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl">Subscribe</h1>
+            <p class="mt-2 text-base md:text-lg lg:text-xl">Get weekly top new jobs delivered to your inbox.</p>
+            <div class="mt-4 w-full max-w-md flex">
+                <input type="email" placeholder="Your Enter email" class="w-2/3 p-3 rounded-l-lg focus:outline-none text-black">
+                <button class="w-1/3 bg-red-500 hover:bg-red-600 text-white font-bold p-3 rounded-r-lg">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto py-12">
+        <div class="text-center mb-8">
+          <h1 class="text-4xl font-Poppins font-bold text-purple-800">Our Price Table</h1>
+          <div class="w-16 h-1 bg-gray-300 mx-auto mt-4"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white text-black rounded-lg shadow-md p-6 md:p-8 max-w-lg mx-auto hover:bg-orange-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105">
+            <div class="text-center">
+              <h2 class="text-4xl mb-4 font-bold border-b border-black pb-2">DEDICATED SERVERS</h2>
+              <div class="text-8xl mb-2 font-bold text-purple-900 border-b border-black pb-2">$40</div>
+              <div class="text-2xl mb-4 text-purple-900 border-b border-black pb-4">PER MONTH</div>
+              <ul class="mb-4 space-y-4 text-purple-900">
+                <li class="border-b border-black pb-2">Service One</li>
+                <li class="border-b border-black pb-2">Service Two</li>
+                <li class="border-b border-black pb-2">Service Three</li>
+                <li class="border-b border-black pb-2">Service Four</li>
+                <li class="border-b border-black pb-2">Service Five</li>
+              </ul>
+              <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full text-xl font-bold">Sign Up</button>
+            </div>
+          </div>
+          <div class="bg-white text-black rounded-lg shadow-md p-6 md:p-8 max-w-lg mx-auto hover:bg-orange-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105">
+            <div class="text-center">
+              <h2 class="text-4xl mb-4 font-bold border-b border-black pb-2">DEDICATED SERVERS</h2>
+              <div class="text-8xl mb-2 font-bold text-purple-900 border-b border-black pb-2">$50</div>
+              <div class="text-2xl mb-4 text-purple-900 border-b border-black pb-4">PER MONTH</div>
+              <ul class="mb-4 space-y-4 text-purple-900">
+                <li class="border-b border-black pb-2">Service One</li>
+                <li class="border-b border-black pb-2">Service Two</li>
+                <li class="border-b border-black pb-2">Service Three</li>
+                <li class="border-b border-black pb-2">Service Four</li>
+                <li class="border-b border-black pb-2">Service Five</li>
+              </ul>
+              <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full text-xl font-bold">Sign Up</button>
+            </div>
+          </div>
+          <div class="bg-white text-black rounded-lg shadow-md p-6 md:p-8 max-w-lg mx-auto hover:bg-orange-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105">
+            <div class="text-center">
+              <h2 class="text-4xl mb-4 font-bold border-b border-black pb-2">DEDICATED SERVERS</h2>
+              <div class="text-8xl mb-2 font-bold text-purple-900 border-b border-black pb-2">$70</div>
+              <div class="text-2xl mb-4 text-purple-900 border-b border-black pb-4">PER MONTH</div>
+              <ul class="mb-4 space-y-4 text-purple-900">
+                <li class="border-b border-black pb-2">Service One</li>
+                <li class="border-b border-black pb-2">Service Two</li>
+                <li class="border-b border-black pb-2">Service Three</li>
+                <li class="border-b border-black pb-2">Service Four</li>
+                <li class="border-b border-black pb-2">Service Five</li>
+              </ul>
+              <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full text-xl font-bold">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-orange-500 py-12">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-white text-center">
+            <div class="relative">
+                <i class="fas fa-globe fa-4x mb-4"></i>
+                <div class="text-5xl font-bold">150+</div>
+                <div class="text-2xl mt-2">FACULTIES</div>
+                <div class="absolute top-0 bottom-0 right-0 w-px bg-white mx-auto"></div>
+            </div>
+            <div class="relative">
+                <i class="fas fa-user-graduate fa-4x mb-4"></i>
+                <div class="text-5xl font-bold">2300+</div>
+                <div class="text-2xl mt-2">STUDENTS</div>
+                <div class="absolute top-0 bottom-0 right-0 w-px bg-white mx-auto"></div>
+            </div>
+            <div class="relative">
+                <i class="fas fa-book fa-4x mb-4"></i>
+                <div class="text-5xl font-bold">40+</div>
+                <div class="text-2xl mt-2">COURSES</div>
+                <div class="absolute top-0 bottom-0 right-0 w-px bg-white mx-auto"></div>
+            </div>
+            <div class="relative">
+                <i class="fas fa-flag fa-4x mb-4"></i>
+                <div class="text-5xl font-bold">80+</div>
+                <div class="text-2xl mt-2">COUNTRIES</div>
+                <!-- No need for a vertical line after the last item -->
+            </div>
+        </div>
+    </div>
+    <header class="text-center py-10">
+        <h1 class="text-4xl font-bold text-purple-900">Happy Candidates</h1>
+    </header>
+    <section class="bg-white mx-auto max-w-4xl rounded-lg shadow-lg p-10 relative transform scale-120">
+        <div class="text-center">
+            <blockquote class="italic text-lg text-gray-700 mb-6 flex items-center justify-center">
+                <i class="fas fa-quote-left text-4xl text-gray-400 mr-2"></i>
+                <p class="text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <i class="fas fa-quote-right text-4xl text-gray-400 ml-2"></i>
+            </blockquote>
+            <div class="flex flex-col items-center mt-4">
+                <img class="w-40 h-40 rounded-full border-2 border-gray-200 mb-2" src="testimonial-img1.png" alt="Placeholder image of Josi Welleam, a confident person with glasses, short hair, and a friendly expression">
+                <p class="text-2xl font-bold text-gray-800">Josi Welleam</p>
+                <p class="text-base text-gray-600">FOUNDER, GITGAT</p>
+            </div>
+        </div>
+        <div class="absolute left-0 top-1/2 transform -translate-y-1/2 ml-4 cursor-pointer">
+            <i class="fas fa-chevron-left text-gray-400 text-2xl"></i>
+        </div>
+        <div class="absolute right-0 top-1/2 transform -translate-y-1/2 mr-4 cursor-pointer">
+            <i class="fas fa-chevron-right text-gray-400 text-2xl"></i>
+        </div>
+    </section>
+    <section class="text-white" style="background-image: url('footer-bg.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto py-10 px-6">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-26 h-16">
+                        <img src="footer-logo.png" alt="A stylized person icon representing JobPool" class="w-full h-full">
+                    </div>
+                    <span class="ml-2 text-3xl font-bold">JobPool</span>
+                </div>
+                <div class="flex items-center">
+                    <input type="text" placeholder="Enter email address" class="px-6 py-4 rounded-l-full bg-white text-black text-lg border border-gray-300 focus:outline-none focus:border-gray-400">
+                    <button class="px-6 py-4 rounded-r-full text-white text-lg transition duration-300 hover:scale-105" style="background-color: #FFA500;">SUBSCRIBE</button>
+
+                </div>
+            </div>
+    
+            <div class="border-t border-white mt-10"></div>
+    
+            <div class="flex justify-between items-center mt-10">
+                <div class="flex flex-col items-center">
+                    <span class="font-bold text-xl">Need Help?</span>
+                    <div class="mt-2">
+                        <i class="fas fa-phone-alt mr-2 text-xl"></i>CALL US: 1800-0000-1234
+                    </div>
+                </div>
+    
+                <div class="flex flex-col items-center">
+                    <span class="font-bold text-xl">Email:</span>
+                    <div class="mt-2">
+                        <div class="flex"><span class="text-xl">info@test.com</span></div>
+                        <div class="flex"><span class="text-xl">support@test.com</span></div>
+                    </div>
+                </div>
+    
+                <div class="flex flex-col items-center">
+                    <span class="font-bold text-xl">Follow Us</span>
+                    <div class="flex mt-2 space-x-4">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                        <i class="fab fa-twitter text-xl"></i>
+                        <i class="fab fa-google-plus-g text-xl"></i>
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                        <i class="fab fa-instagram text-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="py-4" style="background-color: #FFA500; color: black;">
+            <div class="container mx-auto flex justify-between items-center">
+                <span class="text-lg">© Copyright 2024. JobPool. All Rights Reserved</span>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-lg">HOME</a>
+                    <a href="#" class="text-lg">ABOUT US</a>
+                    <a href="#" class="text-lg">SERVICES</a>
+                    <a href="#" class="text-lg">CURRENT JOBS</a>
+                    <a href="#" class="text-lg">OUR PLANS</a>
+                    <a href="#" class="text-lg">BLOG</a>
+                    <a href="#" class="text-lg">CONTACT</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+</html>

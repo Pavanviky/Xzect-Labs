@@ -1,0 +1,100 @@
+.jobsContainer {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.jobsTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: purple;
+}
+
+.jobsTitleBorder {
+    width: 10rem;
+    margin: auto;
+    display: block;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.filterButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid #cbd5e0;
+    margin: 0 0.5rem;
+    color: #4a5568;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.jobCardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.jobCard {
+    width: 450px;
+    height: 100px;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.jobIcon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.jobInfo {
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.jobTitle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.jobLink {
+    color: #718096;
+    text-decoration: none;
+    font-size: medium;
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.jobSalary,
+.jobLocation {
+    color: #718096;
+    margin: 0.2rem 0 0 0;
+}
+
+.jobSalary {
+    font-size: 0.9rem;
+}
+
+.jobLocation {
+    font-size: 0.7rem;
+}
+
+.applyButton {
+    background-color: #e53e3e;
+    color: #fff;
+    padding: 0.2rem 1rem;
+    font-weight: 300;
+    font-size: medium;
+    margin-left: auto;
+    cursor: pointer;
+}
