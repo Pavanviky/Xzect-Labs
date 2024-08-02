@@ -1,5 +1,5 @@
-import styles from './Design.module.css';
-import Image from 'next/image';
+import styles from "./Design.module.css";
+import Image from "next/image";
 
 export default function DesignSection() {
   return (
@@ -13,7 +13,7 @@ export default function DesignSection() {
           className={styles.trendingImage} 
         />
         <div>
-          <h1 className={styles.trendingTitle}>You're Looking for Trending Jobs</h1>
+          <h1 className={styles.trendingTitle}>You&apos;re Looking for Trending Jobs</h1>
           <p className={styles.trendingDescription}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt..
           </p>
